@@ -10,7 +10,7 @@ def web_portfolio():
     <span style='font-size: 32px;'>Hello! My name is Abhisheak Saraswat</span>👋
     </div>
     """, unsafe_allow_html=True)
-    st.markdown('<style>div.block-container{padding-top:2rem;}</style>',unsafe_allow_html=True)
+    st.markdown('<style>div.block-container{padding-top:3rem;}</style>',unsafe_allow_html=True)
 
     # Get Profile Image
     with open("dp.png", "rb") as img_file:
