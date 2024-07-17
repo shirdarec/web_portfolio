@@ -3,11 +3,11 @@ from base64 import b64encode
 
 def web_portfolio():
     # page configs 
-    st.set_page_config(page_title = "Abhisheak Saraswat's Portfolio",page_icon="⭐")
+    st.set_page_config(page_title = "Said's Portfolio",page_icon="⭐")
     # Set the page title
     st.write(f"""
     <div class="title" style="text-align: center;">
-    <span style='font-size: 32px;'>Hello! My name is Abhisheak Saraswat</span>👋
+    <span style='font-size: 32px;'>Hello! My name is Said Hemaz</span>👋
     </div>
     """, unsafe_allow_html=True)
     st.markdown('<style>div.block-container{padding-top:3rem;}</style>',unsafe_allow_html=True)
